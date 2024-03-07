@@ -1,6 +1,7 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
+    <!--router의 역할: home을 클릭하면 브라우저 링크를 /로 바꿔라(History api를 사용)-->
+    <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
   </nav>
   <router-view />
